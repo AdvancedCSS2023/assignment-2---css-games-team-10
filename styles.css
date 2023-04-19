@@ -29,14 +29,16 @@ article,
 .wrapper--information {
   background-color: #ffffff;
   width: 430px;
-  height: 500px;
+  height: 550px;
   border-radius: 2px;
   border: 1px solid #3d3d3d;
 }
 
 .gameboard {
   flex-wrap: wrap;
-  width: 500px;
+  width: 550px;
+  background-color: #ffffff;
+  padding: 50px;
 }
 
 input[type="checkbox"] {
@@ -70,42 +72,42 @@ input[type="checkbox"] {
 
 #egg5 {
   background-image: url(img/easteregg5.png);
-  animation: blink-animation 5s steps(5, start) infinite;
+  animation: blink-animation 2s steps(5, start) infinite;
 }
 
 #egg6 {
   background-image: url(img/easteregg6.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 6 steps(5, start) infinite;
 }
 
 #egg7 {
   background-image: url(img/easteregg7.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 4s steps(5, start) infinite;
 }
 
 #egg8 {
   background-image: url(img/easteregg8.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 9s steps(5, start) infinite;
 }
 
 #egg9 {
   background-image: url(img/easteregg9.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 2s steps(5, start) infinite;
 }
 
 #egg10 {
   background-image: url(img/easteregg10.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 7s steps(5, start) infinite;
 }
 
 #egg11 {
   background-image: url(img/easteregg11.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 4s steps(5, start) infinite;
 }
 
 #egg12 {
   background-image: url(img/easteregg12.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 8s steps(5, start) infinite;
 }
 
 #egg13 {
@@ -115,52 +117,52 @@ input[type="checkbox"] {
 
 #egg14 {
   background-image: url(img/easteregg14.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 
 #egg15 {
   background-image: url(img/easteregg15.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 7s steps(5, start) infinite;
 }
 
 #egg16 {
   background-image: url(img/easteregg16.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 4s steps(5, start) infinite;
 }
 
 #egg17 {
   background-image: url(img/easteregg17.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 6s steps(5, start) infinite;
 }
 
 #egg18 {
   background-image: url(img/easteregg18.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 2s steps(5, start) infinite;
 }
 
 #egg19 {
   background-image: url(img/easteregg19.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 7s steps(5, start) infinite;
 }
 
 #egg20 {
   background-image: url(img/easteregg20.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 9s steps(5, start) infinite;
 }
 
 #egg21 {
   background-image: url(img/easteregg21.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 5s steps(5, start) infinite;
 }
 
 #egg22 {
   background-image: url(img/easteregg22.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 
 #egg23 {
   background-image: url(img/easteregg23.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 4s steps(5, start) infinite;
 }
 
 #egg24 {
@@ -170,137 +172,161 @@ input[type="checkbox"] {
 
 #egg25 {
   background-image: url(img/easteregg25.png);
-  animation: blink-animation 3s steps(5, start) infinite;
+  animation: blink-animation 8s steps(5, start) infinite;
 }
 
 #egg1:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg1.png);
 }
 
 #egg2:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg2.png);
 }
 
 #egg3:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg3.png);
 }
 
 #egg4:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg4.png);
 }
 
 #egg5:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg5.png);
 }
 
 #egg6:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg6.png);
 }
 
 #egg7:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg7.png);
 }
 
 #egg8:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg8.png);
 }
 
 #egg9:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg9.png);
 }
 
 #egg10:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg10.png);
 }
 
 #egg11:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg11.png);
 }
 
 #egg12:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg12.png);
 }
 
 #egg13:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg13.png);
 }
 
 #egg14:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg14.png);
 }
 
 #egg15:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg15.png);
 }
 
 #egg16:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg16.png);
 }
 
 #egg17:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg17.png);
 }
 
 #egg18:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg18.png);
 }
 
 #egg19:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg19.png);
 }
 
 #egg20:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg20.png);
 }
 
 #egg21:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg21.png);
 }
 
 #egg22:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg22.png);
 }
 
 #egg23:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg23.png);
 }
 
 #egg24:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg24.png);
 }
 
 #egg25:checked {
   animation: none;
+  pointer-events: none;
   background-image: url(img/egg25.png);
 }
-/*
+
 @keyframes blink-animation {
   to {
     visibility: hidden;
   }
 }
-*/
