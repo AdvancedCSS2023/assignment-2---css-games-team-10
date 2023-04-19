@@ -1,12 +1,41 @@
 :root {
-  --main-bg-color: lightgoldenrodyellow;
+  --main-bg-color: rgb(250, 247, 210);
+  --alt-main-bg-color: rgb(113, 203, 161);
+  --button-color: rgb(119, 234, 108);
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-image:
+    radial-gradient(rgb(255, 255, 255) 28.8%, transparent 30.8%),
+    radial-gradient(rgb(255, 255, 255) 28.8%, transparent 30.8%);
+  background-position: 0px 0px, 104px 104px;
+  background-size: 208px 208px;
+  background-color: var(--alt-main-bg-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   cursor: url("img/spoon.png"), auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+article {
+  padding-left: 550px;
+  padding-right: 500px;
 }
 
 article,
@@ -30,7 +59,7 @@ article,
   background-color: #ffffff;
   width: 430px;
   height: 550px;
-  border-radius: 2px;
+  border-radius: 20px;
   border: 1px solid #3d3d3d;
 }
 
