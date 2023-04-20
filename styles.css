@@ -18,7 +18,7 @@ body {
   background-position: 0px 0px, 104px 104px;
   background-size: 208px 208px;
   background-color: var(--main-bg-color);
-  font-family: 'Dongle', sans-serif;
+  font-family: "Dongle", sans-serif;
   font-size: 27px;
   line-height: 20px;
   cursor: url("img/spoon.png"), auto;
@@ -30,18 +30,18 @@ main {
   scroll-behavior: smooth;
 }
 
-
 button {
   margin: 10px;
   padding: 10px 20px 10px 20px;
   background-color: var(--button-color);
   border-radius: 8px;
   border: none;
-  font-family: 'Dongle', sans-serif;
+  font-family: "Dongle", sans-serif;
   font-size: 25px;
 }
 
-div p, h1 {
+div p,
+h1 {
   width: 240px;
   text-align: center;
 }
@@ -51,6 +51,7 @@ article {
   padding-right: 500px;
 }
 
+main,
 article,
 .gameboard,
 .wrapper--information {
@@ -79,11 +80,12 @@ button {
   background-color: var(--button-color);
   border-radius: 8px;
   border: none;
-  font-family: 'Dongle', sans-serif;
+  font-family: "Dongle", sans-serif;
   font-size: 25px;
 }
 
-div p, h1 {
+div p,
+h1 {
   width: 240px;
   text-align: center;
 }
