@@ -12,6 +12,15 @@
   }
 }
 
+main {
+  align-items: center;
+  justify-content: center;
+}
+
+#gameScreen {
+  display: none;
+}
+
 body {
   background-image: radial-gradient(var(--white-color) 28.8%, transparent 30.8%),
     radial-gradient(var(--white-color) 28.8%, transparent 30.8%);
@@ -46,31 +55,27 @@ h1 {
   text-align: center;
 }
 
-article {
-  padding-left: 550px;
-  padding-right: 500px;
-}
 
 main,
-article,
 .gameboard,
-.wrapper--information {
+.wrapper--information,
+.game--information {
   display: flex;
 }
 
-article,
+
 .gameboard {
   justify-content: center;
 }
 
-article,
-.wrapper--information {
+.wrapper--information,
+.game--information {
   flex-direction: column;
   align-items: center;
 }
 
 .gameboard,
-.wrapper--information {
+.wrapper--information{
   background-color: var(--white-color);
 }
 
@@ -88,11 +93,6 @@ div p,
 h1 {
   width: 240px;
   text-align: center;
-}
-
-article {
-  padding-left: 550px;
-  padding-right: 500px;
 }
 
 .wrapper--information {
