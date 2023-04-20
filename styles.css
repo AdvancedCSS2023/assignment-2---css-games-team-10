@@ -32,6 +32,11 @@ button {
   border: none;
 }
 
+div p {
+  width: 300px;
+  text-align: center;
+}
+
 article {
   padding-left: 550px;
   padding-right: 500px;
