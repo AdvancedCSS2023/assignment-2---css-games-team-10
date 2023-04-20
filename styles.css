@@ -12,6 +12,7 @@
   }
 }
 
+
 @keyframes shake {
   10%,
   90% {
@@ -33,6 +34,15 @@
   60% {
     transform: translate3d(4px, 0, 0);
   }
+  
+main {
+  align-items: center;
+  justify-content: center;
+}
+
+#gameScreen {
+  display: none;
+
 }
 
 body {
@@ -69,31 +79,27 @@ h1 {
   text-align: center;
 }
 
-article {
-  padding-left: 550px;
-  padding-right: 500px;
-}
 
 main,
-article,
 .gameboard,
-.wrapper--information {
+.wrapper--information,
+.game--information {
   display: flex;
 }
 
-article,
+
 .gameboard {
   justify-content: center;
 }
 
-article,
-.wrapper--information {
+.wrapper--information,
+.game--information {
   flex-direction: column;
   align-items: center;
 }
 
 .gameboard,
-.wrapper--information {
+.wrapper--information{
   background-color: var(--white-color);
 }
 
@@ -116,41 +122,6 @@ div p,
 h1 {
   width: 240px;
   text-align: center;
-}
-
-article {
-  padding-left: 550px;
-  padding-right: 500px;
-}
-
-#gameScreen h1 {
-  text-transform: uppercase;
-}
-
-#gameScreen p,
-.wrapper--information p:nth-of-type(3) {
-  font-weight: bold;
-}
-
-#gameScreen span {
-  font-weight: normal;
-}
-
-.wrapper--information p {
-  margin: 5px;
-}
-
-.wrapper--information p:first-of-type {
-  margin-top: 20px;
-}
-
-.wrapper--information p:nth-of-type(2),
-.wrapper--information p:last-of-type {
-  margin-bottom: 40px;
-}
-
-.wrapper--information p:nth-of-type(3) {
-  margin-top: 40px;
 }
 
 .wrapper--information {
