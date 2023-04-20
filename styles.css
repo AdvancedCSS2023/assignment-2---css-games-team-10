@@ -1,7 +1,6 @@
 :root {
-  --main-bg-color: rgb(250, 247, 210);
-  --alt-main-bg-color: rgb(113, 203, 161);
-  --button-color: rgb(119, 234, 108);
+  --main-bg-color: rgb(193,240,251);
+  --button-color: rgb(188, 219, 131);
 }
 
 body {
@@ -10,7 +9,7 @@ body {
     radial-gradient(rgb(255, 255, 255) 28.8%, transparent 30.8%);
   background-position: 0px 0px, 104px 104px;
   background-size: 208px 208px;
-  background-color: var(--alt-main-bg-color);
+  background-color: var(--main-bg-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   cursor: url("img/spoon.png"), auto;
@@ -59,8 +58,9 @@ article,
   background-color: #ffffff;
   width: 430px;
   height: 550px;
-  border-radius: 20px;
+  border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
   border: 1px solid #3d3d3d;
+  padding-top: 60px;
 }
 
 .gameboard {
