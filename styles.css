@@ -1,12 +1,13 @@
 :root {
-  --main-bg-color: rgb(193,240,251);
+  --main-bg-color: rgb(193, 240, 251);
   --button-color: rgb(188, 219, 131);
+  --white-color: rgb(255, 255, 255);
+  --darkgray-color: rgb(61, 61, 61);
 }
 
 body {
-  background-image:
-    radial-gradient(rgb(255, 255, 255) 28.8%, transparent 30.8%),
-    radial-gradient(rgb(255, 255, 255) 28.8%, transparent 30.8%);
+  background-image: radial-gradient(var(--white-color) 28.8%, transparent 30.8%),
+    radial-gradient(var(--white-color) 28.8%, transparent 30.8%);
   background-position: 0px 0px, 104px 104px;
   background-size: 208px 208px;
   background-color: var(--main-bg-color);
@@ -21,7 +22,6 @@ main {
   overflow: hidden;
   scroll-behavior: smooth;
 }
-
 
 button {
   margin: 10px;
@@ -60,18 +60,18 @@ article,
 }
 
 .wrapper--information {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   width: 430px;
   height: 550px;
   border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
-  border: 1px solid #3d3d3d;
+  border: 1px solid var(--darkgray-color);
   padding-top: 60px;
 }
 
 .gameboard {
   flex-wrap: wrap;
   width: 550px;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   padding: 50px;
 }
 
