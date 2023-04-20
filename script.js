@@ -66,3 +66,21 @@ checkboxes.forEach(function(checkbox) {
     }
   });
 });
+
+// Hide and show articles
+const startButton = document.querySelector('#startScreen button');
+const gameScreen = document.querySelector('#gameScreen');
+const returnButton = document.querySelector('#gameScreen button');
+
+
+startButton.addEventListener('click', () => {
+  // hide the start screen
+  startScreen.style.display = 'none';
+  // show the game screen
+  gameScreen.style.display = 'block';
+});
+
+returnButton.addEventListener('click', () => {
+  // reset the game
+  location.reload();
+});
