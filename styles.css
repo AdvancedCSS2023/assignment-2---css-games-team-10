@@ -20,8 +20,9 @@ body {
   background-position: 0px 0px, 104px 104px;
   background-size: 208px 208px;
   background-color: var(--main-bg-color);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 27px;
+  line-height: 20px;
   cursor: url("img/spoon.png"), auto;
 }
 
@@ -31,7 +32,27 @@ main {
   scroll-behavior: smooth;
 }
 
-main,
+
+button {
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  border: none;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+}
+
+div p, h1 {
+  width: 240px;
+  text-align: center;
+}
+
+article {
+  padding-left: 550px;
+  padding-right: 500px;
+}
+
 article,
 .gameboard,
 .wrapper--information {
@@ -56,15 +77,16 @@ article,
 
 button {
   margin: 10px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   background-color: var(--button-color);
   border-radius: 8px;
-  font-size: 15px;
   border: none;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
 }
 
-div p {
-  width: 300px;
+div p, h1 {
+  width: 240px;
   text-align: center;
 }
 
@@ -79,12 +101,15 @@ article {
   border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
   border: 1px solid var(--darkgray-color);
   padding-top: 60px;
+  border: 1px solid rgb(138, 195, 208);
+  padding-top: 50px;
 }
 
 .gameboard {
   flex-wrap: wrap;
   width: 550px;
   padding: 50px;
+  border: 5px solid rgb(125, 184, 197);
 }
 
 input[type="checkbox"] {
