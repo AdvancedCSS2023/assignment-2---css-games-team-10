@@ -2,6 +2,7 @@
   --main-bg-color: rgb(193, 240, 251);
   --button-color: rgb(188, 219, 131);
   --white-color: rgb(255, 255, 255);
+  --blue-color: rgb(138, 195, 208);
   --darkgray-color: rgb(61, 61, 61);
   --animation-time: 1s;
 }
@@ -12,9 +13,27 @@
   }
 }
 
-main {
-  align-items: center;
-  justify-content: center;
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 #gameScreen {
@@ -49,12 +68,21 @@ button {
   font-size: 25px;
 }
 
+button:hover {
+  transform: scale(0.9);
+}
+
+main,
+.wrapper--information,
+.game--information {
+  align-items: center;
+}
+
 div p,
 h1 {
   width: 240px;
   text-align: center;
 }
-
 
 main,
 .gameboard,
@@ -63,7 +91,7 @@ main,
   display: flex;
 }
 
-
+main,
 .gameboard {
   justify-content: center;
 }
@@ -71,28 +99,11 @@ main,
 .wrapper--information,
 .game--information {
   flex-direction: column;
-  align-items: center;
 }
 
 .gameboard,
-.wrapper--information{
+.wrapper--information {
   background-color: var(--white-color);
-}
-
-button {
-  margin: 10px;
-  padding: 10px 20px 10px 20px;
-  background-color: var(--button-color);
-  border-radius: 8px;
-  border: none;
-  font-family: "Dongle", sans-serif;
-  font-size: 25px;
-}
-
-div p,
-h1 {
-  width: 240px;
-  text-align: center;
 }
 
 .wrapper--information {
@@ -101,15 +112,19 @@ h1 {
   border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
   border: 1px solid var(--darkgray-color);
   padding-top: 60px;
-  border: 1px solid rgb(138, 195, 208);
+  border: 1px solid var(--blue-color);
   padding-top: 50px;
+}
+
+.wrapper--information img:hover {
+  animation: shake var(--animation-time) cubic-bezier(0.36, 0.07, 0.19, 0.97);
 }
 
 .gameboard {
   flex-wrap: wrap;
   width: 550px;
   padding: 50px;
-  border: 5px solid rgb(125, 184, 197);
+  border: 5px solid var(--blue-color);
 }
 
 input[type="checkbox"] {
