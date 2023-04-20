@@ -21,11 +21,15 @@
         </p>
         <img src="./img/chickneutral.png" alt="Neutral chicken">
         <p>How to play: Crack all the eggs as fast as you can!</p>
-        <a href="#gameScreen"> <button >Start game</button></a>
+        <a href="#gameScreen"> <button>Start game</button></a>
       </div>
     </article>
     <article id="gameScreen">
       <h1>Gametime</h1>
+      <div>
+        <p>Eggs cracked: <span id="counter">0</span></p>
+        <p>Time elapsed: <span id="timer">00:00:00</span></p>
+      </div>
       <div class="gameboard">
         <div class="gameboard__square">
           <input type="checkbox" class="gameboard__checkbox--eggimage1">
@@ -102,19 +106,10 @@
         <div class="gameboard__square">
           <input type="checkbox" class="gameboard__checkbox--eggimage25">
         </div>
-        <a href="#startScreen"><button>Return to start</button></a>
-        <a href="#gameOverScreen"><button>Fail</button></a>
-    </article>
-    <article id="gameOverScreen">
-      <div class="wrapper--information">
-        <h1>You failed to find all the chickens</h1>
-        <p>No omelet for you...</p>
-        <img src="./img/chickcry.png" alt="Crying chicken">
-        <a href="./index.html"><button>Try again</button></a>
-      </div>
     </article>
   </main>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
