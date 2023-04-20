@@ -19,6 +19,7 @@
 ## Which technology is used?
 
 - CSS is the primary technology used to create this game, but HTML have also been used to structure and organize the content on the page.
+- We have used some javacript to hide articles for better UX javascript have also been used to create a timer and counter for the game. We did this to create a good feeling for the users and make the game seem more like a game.
 
 ## Who maintains and contributes to the project?
 
