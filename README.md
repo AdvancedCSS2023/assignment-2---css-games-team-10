@@ -10,7 +10,8 @@
 
 ## How can users get started with the project?
 
-- ...
+- They can download the zip file to their computer and play the game. Or they can clone the repository and play.
+- And you can find it on github pages
 
 ## Where can users get help with your project?
 
